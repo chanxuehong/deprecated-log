@@ -1,7 +1,7 @@
-// mlog 只是简单的把标准 log 的输出重定向为一个本地的文件, API还是标准的log.
+// package log 只是简单的把标准 log 的输出重定向为一个本地的文件, API还是标准的log.
 // 为了管理方便, 每天都生成一个新的文件.
 // 一个应用只能调用一次
-package mlog
+package log
 
 import (
 	"fmt"
